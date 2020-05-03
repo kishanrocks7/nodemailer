@@ -8,7 +8,7 @@ const path = require('path');
 
 const app = express();
 app.get('/',function(req,res){
-  res.sendFile(path.join(__dirname+'/html/donate.html'));
+  res.sendFile(path.join(__dirname+'/html/kishan.html'));
 });
 app.use(express.static('html'));
 
